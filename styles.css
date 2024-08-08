@@ -1,1 +1,98 @@
 /* Write your CSS here! */
+
+/* ELEMENTS */
+
+body {
+    margin: 8px;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #222831;
+    color: white;
+}
+
+a {
+    color: #508C9B;
+    font-weight: bold;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+hr {
+    border-style: dashed;
+    border-width: 3px;
+    width: 50%;
+    align-items: center;
+    color: #134B70;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+ul,
+ol {
+    margin-left: 35%;
+    text-align: left;
+    list-style-position: inside;
+}
+
+header {
+    padding-top: 20px;
+    margin-bottom: 3%;
+    background-color: #393E46;
+    align-items: center;
+}
+
+h2 {
+    color: #00ADB5;
+    padding-bottom: 3%;
+}
+
+h3 {
+    color: #00ADB5;
+}
+
+/* IDs */
+
+#mainHeading {
+    color: red;
+}
+
+#resume {
+    text-align: center;
+}
+
+#spotify {
+    border-radius: 100%;
+}
+
+/* CLASSES */
+
+.funParagraph {
+    color: green;
+    
+}
+
+.nested-list {
+    margin: 0;
+}
+
+.portfolio-links {
+    padding-bottom: 5%;
+}
+
+.game-pic {
+    width: 40%;
+}
+
+.paraText {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.container-fluid {
+    height: 25%;
+}

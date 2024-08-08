@@ -7,26 +7,28 @@
     <title>Resume and portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
 </head>
 
-<body>
+<body id="resume">
     <div>
         <h1>Resume</h1>
+        <hr id="resume-top">
         <h2>Andrew Williams</h2>
         <h3>Saint Louis MO</h3>
         <h3>bangold@proton.me</h3>
         <h3>573-366-5171</h3>
+        <hr>
         <h2>Education</h2>
         <p id="education">
         <ul>
             <li>Launchcode Part Time Webdev - 6/24 - current</li>
             <li>Terraform: More than Certified - 12/23-3/24</li>
-            <li>Ulitmate Webdev W/ Angela Yu - 12/22-4/23</li>
+            <li>Ultimate Webdev W/ Angela Yu - 12/22-4/23</li>
             <li>Mineral Area College - 2010-2012</li>
             <li>Fredericktown High School - 2003-2007</li>
         </ul>
         </p>
+        <hr>
         <h2>Work History</h2>
         <p id="history">
         <ul>
@@ -35,6 +37,7 @@
             <li>Dominos Pizza - Delivery Expert - 2013-2015</li>
         </ul>
         </p>
+        <hr>
         <h2>Skills</h2>
         <p id="skills">
         <ul>
@@ -42,24 +45,23 @@
             <li>Payroll</li>
             <li>General Management</li>
             <li>Quick Learning</li>
-            <li>Programming
-                <ul>
-                    <li>Javascript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Terraform</li>
-                    <li>Bootstrap</li>
-                    <li>Linux</li>
-                    <li>CLI</li>
-                    <li>VSCode</li>
-                    <li>Inteli-j</li>
-                    <li>GitHub</li>
-                    <li>React</li>
-                    <li>AWS</li>
-                    <li>Docker</li>
-                    <li>Kubernetes</li>
-                </ul>
-            </li>
+            <li>Programming</li>
+            <ul class="nested-list">
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Terraform</li>
+                <li>Bootstrap</li>
+                <li>Linux</li>
+                <li>CLI</li>
+                <li>VSCode</li>
+                <li>Inteli-j</li>
+                <li>GitHub</li>
+                <li>React</li>
+                <li>AWS</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+            </ul>
             <li>Slack</li>
             <li>Discord</li>
             <li>Element.io</li>
@@ -67,32 +69,46 @@
         </ul>
         </p>
     </div>
-    <div>
+    <hr>
+    <div id="portfolio">
         <h1>Portfolio</h1>
         <div id="github">
-            <a href="https://github.com/Bangoldx"><img src="images/github.png" alt="github logo"></a>
-            <span>My github!</span>
+            <a href="https://github.com/Bangoldx"><img src="images/github.png" alt="github logo"></a><br>
+            <span class="portfolio-links"><u>My github!</u></span>
         </div>
+        <br>
         <div id="my-site">
-            <a href="https://bangoldx.github.io/My-Site/"><img src="images/my-site.png" alt="my site"></a>
-            <span>My original programming "My Site"</span>
+            <a href="https://bangoldx.github.io/My-Site/"><img src="images/my-site.png" alt="my site"></a><br>
+            <span class="portfolio-links"><u>My original programming "My Site"</u></span>
         </div>
+        <br>
         <div id="tindog">
-            <a href="https://bangoldx.github.io/TinDog/"><img src="images/tindog.png" alt="tinder for dogs"></a>
-            <span>Tinder for dogs... uh yeah... lol</span>
+            <a href="https://bangoldx.github.io/TinDog/"><img src="images/tindog.png" alt="tinder for dogs"></a><br>
+            <span class="portfolio-links"><u>Tinder for dogs... uh yeah... lol</u></span>
         </div>
+        <br>
         <div id="simon-says">
-            <a href="https://bangoldx.github.io/Simon-Game/"><img src="images/simon-says.png" alt="simon says"></a>
-            <span>Classic Simon Says!</span>
+            <a href="https://bangoldx.github.io/Simon-Game/"><img src="images/simon-says.png" alt="simon says"></a><br>
+            <span class="portfolio-links"><u>Classic Simon Says!</u></span>
         </div>
-        <div>
+        <br>
+        <div id="pydew">
             <a href="https://github.com/Bangoldx/my-attempt-at-pydew"><img src="images/pydew.png"
-                    alt="pydew valley"></a>
-            <span>My Pydew Valley repo, it still needs lots of tweaks but the bones are there.</span>
+                    alt="pydew valley"></a><br>
+            <span class="portfolio-links"><u>My Pydew Valley repo, it still needs lots of tweaks but the bones are
+                    there.</u></span>
+        </div>
+        <br>
+        <div id="drum-kit">
+            <a href="https://bangoldx.github.io/Drum-Kit/"><img src="images/drum-kit.png"
+                    alt="drum-kit"></a><br>
+            <span class="portfolio-links"><u>Digital drum kit made using AppBrewery starter code.</u></span>
         </div>
     </div>
-
-    <a href="index.html">Home</a>
+    <br>
+    <footer>
+        <a href="index.html">Home</a>
+    </footer>
 </body>
 
 </html>
